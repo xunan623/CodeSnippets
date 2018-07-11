@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>timeConsuming</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    CFTimeInterval startTime = CACurrentMediaTime();
+    &lt;#code here#&gt;
+    CFTimeInterval endTime = CACurrentMediaTime();
+    CFTimeInterval consumingTime = endTime - startTime;
+    NSLog(@"%s: Took [%f] seconds to run", __PRETTY_FUNCTION__, consumingTime);</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9652FECC-F8EB-429D-84D9-8F83A07E6F33</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>代码执行耗时计算</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>代码执行耗时计算</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
